@@ -10,8 +10,7 @@ void main() {
       ),
       body: Center(
         child: Image(
-          image: NetworkImage(
-              'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRHt417p8M4uCPvfCnTdJ336lnXdIN2ytfIaY2UIrP_-DSeYHZG'),
+          image: AssetImage('images/diamond.png'),
         ),
       ),
     ),
